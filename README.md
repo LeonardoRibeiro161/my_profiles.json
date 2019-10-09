@@ -1,6 +1,6 @@
 # my_profiles.json
 
-[![Build Status](https://img.shields.io/badge/Windows%20Terminal-Profiles-green)
+[!Build Status](https://img.shields.io/badge/Windows%20Terminal-Profiles-green)
 
 
 
