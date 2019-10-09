@@ -1,4 +1,4 @@
 # my_profiles.json
 Meu arquivo de configuração para Windows Terminal
-[![Generic badge](https://img.shields.io/badge/<Windows Terminal>-<STATUS>-<COLOR>.svg)](https://shields.io/)
+https://img.shields.io/website-up-down-green-red/http/shields.io.svg
 Link: https://github.com/microsoft/terminal
