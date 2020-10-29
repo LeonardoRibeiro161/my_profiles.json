@@ -1,219 +1,144 @@
-{
-    "defaultProfile": "{7d04ce37-c00f-43ac-ba47-992cb1393215}",
-    "initialRows": 30,
-    "initialCols": 120,
-    "alwaysShowTabs": true,
-    "showTerminalTitleInTitlebar": true,
-    "experimental_showTabsInTitlebar": true,
-    "requestedTheme": "dark",
-    "profiles": [
-        {
-            "startingDirectory": "C:/Users/Leonardo/Desktop",
-            "guid": "{7d04ce37-c00f-43ac-ba47-992cb1393215}",
-            "name": "Prompt Classico",
-            "colorscheme": "Solarized Dark",
-            "historySize": 9001,
-            "snapOnInput": true,
-            "cursorColor": "#00FF00",
-            "cursorHeight": 25,
-            "cursorShape": "vintage",
-            "commandline": "cmd.exe",
-            "fontFace": "Cascadia Code",
-            "fontSize": 10,
-            "acrylicOpacity": 0.85,
-            "useAcrylic": true,
-            "closeOnExit": false,
-            "padding": "0, 0, 0, 0",
-            "icon": "C:/Users/Leonardo/Documents/icons/cmd.png"
-        },
-        {
-            "startingDirectory": "C:/Users/Leonardo/Desktop",
-            "guid": "{79285a8e-036c-446f-8a9c-78994e34bf85}",
-            "name": "Powershell - Leo",
-            "background": "#282A36",
-            "colorscheme": "Solarized Dark",
-            "historySize": 9001,
-            "snapOnInput": true,
-            "cursorColor": "#FFFFFF",
-            "cursorShape": "bar",
-            "commandline": "powershell.exe",
-            "fontFace": "Ubuntu Mono",
-            "fontSize": 10,
-            "acrylicOpacity": 0.85,
-            "useAcrylic": true,
-            "closeOnExit": false,
-            "padding": "0, 0, 0, 0",
-	    "icon": "C:/Users/Leonardo/Documents/icons/pwsh-32.png"
-        },
-        {
-            "guid": "{39285a8e-036c-446f-8a9c-78994e34bf85}",
-            "name": "Powershell",
-            "background": "#282A36",
-            "colorscheme": "Campbell",
-            "historySize": 9001,
-            "snapOnInput": true,
-            "cursorColor": "#00FF00",
-            "cursorHeight": 25,
-            "cursorShape": "vintage",
-            "fontFace": "Fira Code",
-            "fontSize": 10,
-            "acrylicOpacity": 0.85,
-            "useAcrylic": true,
-            "closeOnExit": false,
-            "padding": "0, 0, 0, 0",
-            "icon": "C:/Users/Leonardo/Documents/icons/pwsh-32.png"
-        },
-        {
-            "guid": "{8d04ce37-c00f-43ac-ba47-992cb1393215}",
-            "name": "Ubuntu",
-            "colorscheme": "UbuntuLegit",
-            "historySize": 9001,
-            "snapOnInput": true,
-            "cursorColor": "#FFFFFF",
-            "cursorShape": "bar",
-            "commandline": "wsl.exe -d Ubuntu-18.04",
-            "fontFace": "Fira Code",
-            "fontSize": 20,
-            "acrylicOpacity": 0.85,
-            "useAcrylic": true,
-            "closeOnExit": false,
-            "padding": "0, 0, 0, 0",
-            "icon": "C:/Users/Leonardo/Documents/icons/ubuntu-32.png"
-        },
-        {
-            "guid": "{9d04ce37-c00f-43ac-ba47-992cb1393215}",
-            "name": "Azure Cloud Shell",
-            "colorscheme": "Ubuntu",
-            "historySize": 9001,
-            "snapOnInput": true,
-            "cursorColor": "#FFFFFF",
-            "cursorShape": "bar",
-            "commandline": "c:\\github\\azshell\\azshell.exe",
-            "fontFace": "Consolas",
-            "fontSize": 20,
-            "acrylicOpacity": 0.85,
-            "useAcrylic": true,
-            "closeOnExit": false,
-            "padding": "0, 0, 0, 0",
-            "icon": "C:/Users/Leonardo/Documents/icons/azure.png"
-        }
-    ],
-    "schemes": [
-        {
-            "name": "Campbell",
-            "foreground": "#F2F2F2",
-            "background": "#282A36",
-            "colors": [
-                "#0C0C0C",
-                "#C50F1F",
-                "#13A10E",
-                "#C19C00",
-                "#0037DA",
-                "#881798",
-                "#3A96DD",
-                "#CCCCCC",
-                "#767676",
-                "#E74856",
-                "#16C60C",
-                "#F9F1A5",
-                "#3B78FF",
-                "#B4009E",
-                "#61D6D6",
-                "#F2F2F2"
-            ]
-        },
-        {
-            "name": "Solarized Dark",
-            "foreground": "#F8F8F2",
-            "background": "#21222C",
-            "colors": [
-                "#073642",
-                "#D30102",
-                "#859900",
-                "#B58900",
-                "#268BD2",
-                "#D33682",
-                "#2AA198",
-                "#EEE8D5",
-                "#002B36",
-                "#CB4B16",
-                "#586E75",
-                "#657B83",
-                "#839496",
-                "#6C71C4",
-                "#93A1A1",
-                "#FDF6E3"
-            ]
-        },
-        {
-            "name": "Ubuntu Light",
-            "foreground": "#073642",
-            "background": "#FDF6E3",
-            "colors": [
-                "#073642",
-                "#D30102",
-                "#859900",
-                "#B58900",
-                "#268BD2",
-                "#D33682",
-                "#2AA198",
-                "#EEE8D5",
-                "#002B36",
-                "#CB4B16",
-                "#586E75",
-                "#657B83",
-                "#839496",
-                "#6C71C4",
-                "#93A1A1",
-                "#FDF6E3"
-            ]
-        },
-        {
-            "name": "Ubuntu",
-            "foreground": "#EEEEEC",
-            "background": "#2C001E",
-            "colors": [
-                "#EEEEEC",
-                "#16C60C",
-                "#729FCF",
-                "#B58900",
-                "#268BD2",
-                "#D33682",
-                "#2AA198",
-                "#EEE8D5",
-                "#002B36",
-                "#CB4B16",
-                "#586E75",
-                "#657B83",
-                "#839496",
-                "#6C71C4",
-                "#93A1A1",
-                "#FDF6E3"
-            ]
-        },
+// This file was initially generated by Windows Terminal 1.3.2651.0
+// It should still be usable in newer versions, but newer versions might have additional
+// settings, help text, or changes that you will not see unless you clear this file
+// and let us generate a new one for you.
 
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+
+    // You can add more global application settings here.
+    // To learn more about global settings, visit https://aka.ms/terminal-global-settings
+
+    // If enabled, selections are automatically copied to your clipboard.
+    "copyOnSelect": false,
+
+    // If enabled, formatted data is also copied to your clipboard
+    "copyFormatting": false,
+
+    // A profile specifies a command to execute paired with information about how it should look and feel.
+    // Each one of them will appear in the 'New Tab' dropdown,
+    //   and can be invoked from the commandline with `wt.exe -p xxx`
+    // To learn more about profiles, visit https://aka.ms/terminal-profile-settings
+    "profiles":
+    {
+        "defaults":
         {
-            "name": "UbuntuLegit",
-            "foreground": "#EEEEEE",
-            "background": "#2C001E",
-            "colors": [
-                "#4E9A06",
-                "#CC0000",
-                "#300A24",
-                "#C4A000",
-                "#3465A4",
-                "#75507B",
-                "#06989A",
-                "#D3D7CF",
-                "#555753",
-                "#EF2929",
-                "#8AE234",
-                "#FCE94F",
-                "#729FCF",
-                "#AD7FA8",
-                "#34E2E2",
-                "#EEEEEE"
-            ]
+            // Put settings here that you want to apply to all profiles.
+        },
+        "list":
+        [
+            {
+                // Make changes here to the powershell.exe profile.
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false,
+		 "colorScheme": "Blue Matrix",
+       		 "fontFace": "Cascadia Code PL",
+		 "snapOnInput": true,
+       		 "fontSize": 10,
+       		 "backgroundImageOpacity": 0.2,
+       		 "acrylicOpacity": 0.8,
+       		 "useAcrylic": true,
+
+
+            },
+            {
+                // Make changes here to the cmd.exe profile.
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Prompt de comando",
+                "commandline": "cmd.exe",
+                "hidden": false,
+		"colorScheme": "Dracula",
+		"fontFace": "Cascadia Code PL",
+       		 "fontSize": 10,
+       		 "backgroundImageOpacity": 0.2,
+       		 "acrylicOpacity": 0.8,
+       		 "useAcrylic": true,
+
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+
+    // Add custom color schemes to this array.
+    // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
+    "schemes": [
+	{
+            "name": "Blue Matrix",
+            "black": "#101116",
+            "red": "#ff5680",
+            "green": "#00ff9c",
+            "yellow": "#fffc58",
+            "blue": "#00b0ff",
+            "purple": "#d57bff",
+            "cyan": "#76c1ff",
+            "white": "#c7c7c7",
+            "brightBlack": "#686868",
+            "brightRed": "#ff6e67",
+            "brightGreen": "#5ffa68",
+            "brightYellow": "#fffc67",
+            "brightBlue": "#6871ff",
+            "brightPurple": "#d682ec",
+            "brightCyan": "#60fdff",
+            "brightWhite": "#ffffff",
+            "background": "#101116",
+            "foreground": "#c7c7c7"
         }
+ 	,
+	 {
+        "name": "Dracula",
+        "cursorColor": "#F8F8F2",
+        "selectionBackground": "#44475A",
+        "background": "#282A36",
+        "foreground": "#F8F8F2",
+        "black": "#21222C",
+        "blue": "#BD93F9",
+        "cyan": "#8BE9FD",
+        "green": "#50FA7B",
+        "purple": "#FF79C6",
+        "red": "#FF5555",
+        "white": "#F8F8F2",
+        "yellow": "#F1FA8C",
+        "brightBlack": "#6272A4",
+        "brightBlue": "#D6ACFF",
+        "brightCyan": "#A4FFFF",
+        "brightGreen": "#69FF94",
+        "brightPurple": "#FF92DF",
+        "brightRed": "#FF6E6E",
+        "brightWhite": "#FFFFFF",
+        "brightYellow": "#FFFFA5"
+      }
+
+	],
+
+    // Add custom actions and keybindings to this array.
+    // To unbind a key combination from your defaults.json, set the command to "unbound".
+    // To learn more about actions and keybindings, visit https://aka.ms/terminal-keybindings
+    "actions":
+    [
+        // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
+        // These two lines additionally bind them to Ctrl+C and Ctrl+V.
+        // To learn more about selection, visit https://aka.ms/terminal-selection
+        { "command": {"action": "copy", "singleLine": false }, "keys": "ctrl+c" },
+        { "command": "paste", "keys": "ctrl+v" },
+
+        // Press Ctrl+Shift+F to open the search box
+        { "command": "find", "keys": "ctrl+shift+f" },
+
+        // Press Alt+Shift+D to open a new pane.
+        // - "split": "auto" makes this pane open in the direction that provides the most surface area.
+        // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
+        // To learn more about panes, visit https://aka.ms/terminal-panes
+        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" }
     ]
 }
